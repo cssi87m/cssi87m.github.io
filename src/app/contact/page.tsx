@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/sections";
+
+export const metadata: Metadata = {title:"Contact",description:"Contact Dao Xuan Quang Minh for robotics engineering and AI research collaborations."};
+export default function Contact() { return <main id="main" className="shell inner-page contact-page"><Breadcrumbs items={[{label:"Home",href:"/"},{label:"Contact"}]}/><p className="file-label"><span className="file-dot"/> contact.sh</p><h1>Start a conversation<span className="accent">.</span></h1><p>Open to engineering roles, research collaborations, and academic discussions. Email is the best way to reach me.</p><div className="contact-options"><a href="mailto:daoxuanquangminh2004@gmail.com"><span>EMAIL</span><strong>daoxuanquangminh2004@gmail.com</strong><b aria-hidden="true">↗</b></a><a href="https://github.com/cssi87m" target="_blank" rel="noreferrer"><span>GITHUB</span><strong>github.com/cssi87m</strong><b aria-hidden="true">↗</b></a></div></main>; }
